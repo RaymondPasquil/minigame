@@ -444,8 +444,10 @@ body {
 
 
 .frens {
-    background: linear-gradient(0deg, rgb(0, 0, 0) 2%, rgb(0, 0, 0) 45%);
-    background: linear-gradient(0deg, rgb(0, 0, 0) 5%, rgba(0,0,0,1) 45%);
+  background: radial-gradient(circle, rgb(255, 165, 0) 0%, rgb(255, 140, 0) 15%, rgb(255, 69, 0) 75%);
+
+  background: radial-gradient(circle, rgb(255, 215, 0) 0%, rgb(255, 165, 0) 20%, rgb(255, 140, 0) 50%, rgb(255, 69, 0) 85%);
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
