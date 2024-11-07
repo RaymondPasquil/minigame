@@ -1,6 +1,7 @@
 const body = document.body;
 const image = body.querySelector('#coin');
 const h1 = body.querySelector('h1');
+const animationPlayer = body.querySelector('.animation-player');
 
 let coins = localStorage.getItem('coins');
 let total = localStorage.getItem('total');
@@ -53,7 +54,17 @@ image.addEventListener('click' , (e)=> {
         body.querySelector('#power').textContent = `${Number(power) - 1}`;
     } 
 
-    if(x < 150 & y < 150){
+
+    animationPlayer.style.left = '$(x-50)px';
+    animationPlayer.style.top = '$(y -50)px';
+    animationPlayer.style.visibility ='visible';
+    animationPlayer.play();
+
+    setTimeout(() =>{
+    animationPlayer.style.visibility ='hidden';
+    },1000);
+    
+ if(x < 150 & y < 150){
         image.style.transform = 'translate(-0.25rem, -0.25rem) skewY(-10deg) skewX(5deg)';
     }
     else if (x < 150 & y > 150){
