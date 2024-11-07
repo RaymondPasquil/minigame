@@ -1,5 +1,5 @@
 const body = document.body;
-//const image = body.querySelector('#coin');
+const image = body.querySelector('#coin');
 const h1 = body.querySelector('h1');
 const animationPlayer = body.querySelector('.animation-player');
 
