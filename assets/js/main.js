@@ -55,8 +55,7 @@ image.addEventListener('click' , (e)=> {
     } 
 
 
-      animationPlayer.style.left = `${x - 100}px`; // Center the animation at click
-    animationPlayer.style.top = `${y - 100}px`;
+   
     animationPlayer.style.visibility = 'visible';
     animationPlayer.play();
 
