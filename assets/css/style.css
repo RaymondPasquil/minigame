@@ -221,9 +221,9 @@ body {
 
 
 .boost {
-    background: radial-gradient(circle, rgb(255, 165, 0) 0%, rgb(255, 140, 0) 15%, rgb(255, 69, 0) 45%);
+   background: radial-gradient(circle, rgb(255, 165, 0) 0%, rgb(255, 140, 0) 15%, rgb(255, 69, 0) 75%);
 
-    background: radial-gradient(circle, rgb(255, 215, 0) 0%, rgb(255, 165, 0) 20%, rgb(255, 140, 0) 50%, rgb(255, 69, 0) 45%);
+    background: radial-gradient(circle, rgb(255, 215, 0) 0%, rgb(255, 165, 0) 20%, rgb(255, 140, 0) 50%, rgb(255, 69, 0) 85%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
@@ -610,9 +610,9 @@ button:active {
 
 
 .earn {
-    background: radial-gradient(circle, rgb(255, 165, 0) 0%, rgb(255, 140, 0) 15%, rgb(255, 69, 0) 45%);
+ background: radial-gradient(circle, rgb(255, 165, 0) 0%, rgb(255, 140, 0) 15%, rgb(255, 69, 0) 75%);
 
-    background: radial-gradient(circle, rgb(255, 215, 0) 0%, rgb(255, 165, 0) 20%, rgb(255, 140, 0) 50%, rgb(255, 69, 0) 45%);
+    background: radial-gradient(circle, rgb(255, 215, 0) 0%, rgb(255, 165, 0) 20%, rgb(255, 140, 0) 50%, rgb(255, 69, 0) 85%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
