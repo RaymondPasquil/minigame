@@ -636,7 +636,7 @@ button:active {
 }
 
 .login-page {
-    background: linear-gradient(0deg, rgb(0, 0, 0) 2%, rgb(0, 0, 0) 45%);
+    background: linear-gradient(0deg, rgb(139, 69, 19) 2%, rgb(255, 140, 0) 45%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
@@ -664,8 +664,10 @@ button:active {
 .login-form form {
     padding: 2rem;
     border-radius: 15px;
-    background-color: rgba(218, 218, 218, 0.2);
-    border: 2px solid rgba(218, 218, 218, 0.02);
+  background-color: rgba(139, 69, 19, 0.2); /* Muted dark orange-brown background */
+border: 2px solid rgba(139, 69, 19, 0.3); /* Similar color but slightly more opaque */
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
