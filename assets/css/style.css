@@ -132,6 +132,14 @@ body {
     transition: .1s;
     transform-style: preserve-3d;
 }
+ .animation-player {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            pointer-events: none; /* Prevents interaction */
+            visibility: hidden;
+        }
+
 .menu-container {
     margin-top: 2.25rem;
     width: 90%;
