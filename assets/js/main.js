@@ -1,7 +1,7 @@
 const body = document.body;
 const image = body.querySelector('#coin');
 const h1 = body.querySelector('h1');
-const animationPlayer  = body.querySelector('.animation-player");
+
 let coins = localStorage.getItem('coins');
 let total = localStorage.getItem('total');
 let power = localStorage.getItem('power');
