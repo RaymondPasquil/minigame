@@ -52,6 +52,12 @@ image.addEventListener('click' , (e)=> {
         localStorage.setItem('power' , `${Number(power) - 1}`);
         body.querySelector('#power').textContent = `${Number(power) - 1}`;
     } 
+      // Show the animation at click position
+    animationPlayer.style.left = `${x - 50}px`; // Center the animation at click
+    animationPlayer.style.top = `${y - 50}px`;
+    animationPlayer.style.visibility = 'visible';
+    animationPlayer.play();
+
 
     if(x < 150 & y < 150){
         image.style.transform = 'translate(-0.25rem, -0.25rem) skewY(-10deg) skewX(5deg)';
